@@ -1,0 +1,382 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.effects-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    letter-spacing: 6%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 696px;
+}
+
+.effectivesolutions {
+    background-color: #2F303A;
+}
+
+.effects-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 6%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.purpose-title {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+}
+
+.purpose-text {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 3%;
+    line-height: 1.714;
+    color: #757575;
+}
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 3%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 3%;
+
+}
+
+.job {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3%;
+    color: #757575;
+
+}
+
+.contact-link {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14PX;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-decoration: none;
+
+}
+
+.contact-link:hover {
+    color: #2196F3;
+}
+
+.contact-link:active {
+    color: #11538a;
+}
+
+address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Navigation-List {
+    display: flex;
+    gap: 50px;
+}
+
+.contacts {
+    display: flex;
+    gap: 50px;
+}
+
+.effects-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.effectivesolutions {
+    padding: 200px 0;
+}
+
+.purpose-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 94px;
+    margin-bottom: 94px;
+
+}
+
+.work-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-photo {
+    width: 270px;
+    height: 260px;
+}
+
+img {
+    display: block;
+}
+
+.team {
+    background-color: #F5F4FA;
+    padding: 94px 0;
+}
+
+.team-people {
+    background-color: #FFFFFF;
+    flex-direction: column;
+    text-align: center;
+}
+
+.job {
+    margin-top: 0px;
+}
+
+.work {
+    margin-bottom: 94px;
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-logo {
+    padding-bottom: 20px;
+}
+
+.Navigation-Link {
+    color: #212121;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0px 18px -4px #000000;
+}
+
+.Navigation-Link:hover {
+    color: #2196F3;
+}
+
+.Navigation-Link:active {
+    color: #11538a;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.product-image {
+    width: 270px;
+    height: 260px;
+}
+
+.products {
+    background-color: #FFFFFF;
+    padding: 94px 0;
+}
+
+.products1 {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #EEEEEE;
+    width: 370px;
+}
+
+.products1:hover {
+    box-shadow: 0px 5px 5px #00000050;
+    cursor: pointer;
+}
+
+.product-button {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 125px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+}
+
+.product-button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0px 5px 5px #00000050;
+}
+
+.product-button:active {
+    color: #FFFFFF;
+    background-color: #11538a;
+    box-shadow: 0px 1px 5px #00000050;
+}
+
+.button-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.purpose-item::before {
+    content: url("./Images/antenna\ 1.png");
+    background-color: #F5F4FA;
+    display: block;
+    width: 270px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.purpose-item {
+    width: 270px;
+}
+
+.purpose-item:nth-child(2)::before {
+    content: url("./Images/clock\ 1.png");
+}
+
+.purpose-item:nth-child(3)::before {
+    content: url("./Images/diagram\ 1.png");
+}
+
+.purpose-item:nth-child(4)::before {
+    content: url("./Images/astronaut\ 1.png");
+}
+
+.effectivesolutions {
+    background-image: url('Images/6767.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.products1:hover {
+    box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.32);
+    transition: transform 100ms ease-in box-shadow 100ms ease-in;
+    transform: translateY(-10px) scale(1.1);
+}
+
+.product-button {
+    transition: transform 100ms ease-in box-shadow 100ms ease-in;
+    transform: translateY(-10px) scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196F3E5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.products1:hover .overlay {
+    opacity: 1;
+}
+
+.product-info {
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    font: roboto;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 63px;
+    padding-top: 63px;
+}
