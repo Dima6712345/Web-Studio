@@ -383,3 +383,6 @@ header {
 .products1{
     position: relative;
 }
+.overlay{
+    height: 295px;
+}
