@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css"> -->
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Web Studio</title>
 </head>
 
@@ -32,8 +33,8 @@
         </div>
     </header>
     <main>
-        <section class="effectivesolutions">
-            <div class="container effects-flex">
+        <section class="effectivesolutions" data-aos="fade-down">
+            <div class="container effects-flex" data-aos="fade-down" data-aos-delay="300">
                 <h1 class="effects-title">Ефективні рішення для вашого бізнесу</h1>
                 <button class="effects-button">Замовити послугу</button>
             </div>
@@ -41,22 +42,22 @@
         <section class="purpose">
             <div class="container">
                 <ul class="purpose-list">
-                    <li class="purpose-item">
+                    <li class="purpose-item" data-aos="fade-right">
                         <h3 class="purpose-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p class="purpose-text">Ідейні міркування, і навіть початок повсякденної роботи з формування
                             позиції.</p>
                     </li>
-                    <li class="purpose-item">
+                    <li class="purpose-item" data-aos="fade-right" data-aos-delay="300">
                         <h3 class="purpose-title">ПУНКТУАЛЬНІСТЬ</h3>
                         <p class="purpose-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у
                             себе.
                         </p>
                     </li>
-                    <li class="purpose-item">
+                    <li class="purpose-item" data-aos="fade-right" data-aos-delay="600">
                         <h3 class="purpose-title">ПЛАНУВАННЯ</h3>
                         <p class="purpose-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
-                    <li class="purpose-item">
+                    <li class="purpose-item" data-aos="fade-right" data-aos-delay="900">
                         <h3 class="purpose-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                         <p class="purpose-text">Значимість цих проблем настільки очевидна, що реалізація планових
                             завдань.
@@ -70,28 +71,31 @@
                 <h2 class="work-title">Чим ми займаємося
                 </h2>
                 <ul class="work-list">
-                    <li> <img src="Images/img.png" alt="" class="work-image"></li>
-                    <li><img src="Images/box 2.png" alt="" class="work-image"></li>
-                    <li><img src="Images/box 3.png" alt="" class="work-image"></li>
+                    <li> <img src="Images/img.png" alt="" class="work-image" data-aos="fade-right" data-aos-delay="600">
+                    </li>
+                    <li> <img src="Images/box 2.png" alt="" class="work-image" data-aos="fade-up" data-aos-delay="1200">
+                    </li>
+                    <li> <img src="Images/box 3.png" alt="" class="work-image" data-aos="fade-left" data-aos-delay="900">
+                    </li>
                 </ul>
         </section>
         <section class="team">
             <div class="container">
                 <h2 class="team-title"> Наша Команда</h2>
                 <ul class="team-list">
-                    <li class="team-people"><img src="Images/img (1).png" alt="" class="team-photo">
+                    <li class="team-people"><img src="Images/img (1).png" alt="" class="team-photo" data-aos="fade-up" data-aos-delay="300">
                         <h4 class="team-name">Ігор Дем'яненко</h4>
                         <p class="job">Product Designer</p>
                     </li>
-                    <li class="team-people"><img src="Images/img (1).jpg" alt="" class="team-photo">
+                    <li class="team-people"><img src="Images/img (1).jpg" alt="" class="team-photo" class="team-photo" data-aos="fade-down" data-aos-delay="600">
                         <h4 class="team-name">Ольга Репіна</h4>
                         <p class="job">Frontend Developer </p>
                     </li>
-                    <li class="team-people"><img src="Images/img (2).jpg" alt="" class="team-photo">
+                    <li class="team-people"><img src="Images/img (2).jpg" alt="" class="team-photo" class="team-photo" data-aos="fade-up" data-aos-delay="900">
                         <h4 class="team-name">Микола Тарасов</h4>
                         <p class="job">Marketing</p>
                     </li>
-                    <li class="team-people"><img src="Images/img (3).jpg" alt="" class="team-photo">
+                    <li class="team-people"><img src="Images/img (3).jpg" alt="" class="team-photo" class="team-photo" data-aos="fade-down" data-aos-delay="1200">
                         <h4 class="team-name">Махайло Єрмаков</h4>
                         <p class="job">UI Designer</p>
                     </li>
@@ -108,6 +112,10 @@
             </ul>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
