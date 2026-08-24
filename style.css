@@ -386,3 +386,9 @@ header {
 .overlay{
     height: 295px;
 }
+.Navigation-Link{
+    transition: transform 100ms ease-in box-shadow 100ms ease-in;
+}
+.Navigation-Link:hover{
+    opacity: 1;
+}

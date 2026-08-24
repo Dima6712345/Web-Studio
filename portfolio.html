@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 
@@ -36,11 +37,11 @@
         <section class="products">
             <div class="container">
                 <div class="button-list">
-                    <button class="product-button">Усі</button>
-                    <button class="product-button">Веб-сайти</button>
-                    <button class="product-button">Додатки</button>
-                    <button class="product-button">Дизайн</button>
-                    <button class="product-button">Маркетинг</button>
+                    <button class="product-button" data-aos="fade-right">Усі</button>
+                    <button class="product-button" data-aos="fade-right" data-aos-delay="300">Веб-сайти</button>
+                    <button class="product-button" data-aos="fade-right" data-aos-delay="600">Додатки</button>
+                    <button class="product-button" data-aos="fade-right" data-aos-delay="900">Дизайн</button>
+                    <button class="product-button" data-aos="fade-right" data-aos-delay="1200">Маркетинг</button>
                 </div>
                 <ul class="product-list">
                     <li class="products1"><img src="Images/img 67.png" alt="" class="product-photo">
@@ -155,6 +156,10 @@
             </ul>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
