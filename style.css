@@ -380,15 +380,67 @@ header {
     padding-bottom: 63px;
     padding-top: 63px;
 }
-.products1{
+
+.products1 {
     position: relative;
 }
-.overlay{
+
+.overlay {
     height: 295px;
 }
-.Navigation-Link{
+
+.Navigation-Link {
     transition: transform 100ms ease-in box-shadow 100ms ease-in;
 }
-.Navigation-Link:hover{
+
+.Navigation-Link:hover {
     opacity: 1;
+}
+
+.clients {
+    background-color: white;
+}
+
+.client-title {
+    font: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+    margin-top: 94px;
+    text-align: center;
+}
+
+.client-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+    margin-bottom: 94px;
+}
+
+.client-image {
+    padding: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border-color 200ms ease, filter 200ms ease;
+}
+
+.client-image:hover {
+    border-color: #2196F3;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(99%) saturate(2250%) hue-rotate(195deg) brightness(99%) contrast(91%);
+}
+.social-list{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+.social-media:hover{
+ border-color: #2196F3;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(99%) saturate(2250%) hue-rotate(195deg) brightness(99%) contrast(91%);
 }
