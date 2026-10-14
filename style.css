@@ -433,14 +433,95 @@ header {
     border-color: #2196F3;
     filter: brightness(0) saturate(100%) invert(48%) sepia(99%) saturate(2250%) hue-rotate(195deg) brightness(99%) contrast(91%);
 }
-.social-list{
+
+.social-list {
     display: flex;
     gap: 10px;
     justify-content: center;
     margin-bottom: 30px;
     margin-top: 16px;
 }
-.social-media:hover{
- border-color: #2196F3;
+
+.social-media:hover {
+    border-color: #2196F3;
     filter: brightness(0) saturate(100%) invert(48%) sepia(99%) saturate(2250%) hue-rotate(195deg) brightness(99%) contrast(91%);
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {}
+
+.burger-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+
+}
+
+.burger-line {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #333;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.burger-btn.is-open .burger-line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.burger-btn.is-open .burger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-btn.is-open .burger-line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 767px) {
+    .header-flex {
+        position: relative;
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .burger-btn {
+        display: flex;
+        z-index: 2;
+    }
+
+    .Navigation-List {
+        position: absolute;
+        top: calc(100% + 1px);
+        right: 0;
+        left: 0;
+        min-height: calc(100vh - 72px);
+        background: #FAFAFA;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        z-index: 1;
+    }
+
+    .Navigation-List.is-open {
+        transform: translateX(0);
+    }
+
+    .Navigation-List .Navigation-Link {
+        font-size: 32px;
+    }
 }
