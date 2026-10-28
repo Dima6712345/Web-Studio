@@ -337,6 +337,187 @@ header {
     background-position: center bottom;
 }
 
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+    .effectivesolutions .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .effectivesolutions {
+        background-image: url('Images/6767-tablet.png');
+    }
+}
+
+/* Medium: 768px - 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .effectivesolutions .container {
+        max-width: 720px;
+    }
+
+    .purpose-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .purpose-item {
+        margin: 25px;
+    }
+
+    .work-image {
+        max-width: 267px;
+    }
+
+    .team-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team-people {
+        margin: 25px;
+    }
+
+    .client-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .client-image {
+        margin: 20px;
+    }
+
+    .product-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+    .effectivesolutions .container {
+        max-width: 540px;
+    }
+
+    .effectivesolutions {
+        background-image: url('Images/6767-mobile.png');
+    }
+
+    .purpose-list {
+        max-width: 420px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .purpose-item {
+        margin-right: 45px;
+        margin-left: 45px;
+    }
+
+    .work-image {
+        max-width: 217px;
+    }
+
+    .team-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team-people {
+        margin: 25px;
+    }
+
+    .client-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .client-image {
+        margin: 20px;
+    }
+
+    .product-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+    .effectivesolutions .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .effectivesolutions {
+        background-image: url('Images/6767-mobile.png');
+    }
+
+    .work-image {
+        max-width: 167px;
+    }
+
+    .effects-title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .product-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .button-list {
+        max-width: 720px;
+        margin-right: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 .products1:hover {
     box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.32);
     transition: transform 100ms ease-in box-shadow 100ms ease-in;
