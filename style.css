@@ -616,17 +616,11 @@ header {
 }
 
 .social-list {
-    display: flex;
     gap: 10px;
-    justify-content: center;
     margin-bottom: 30px;
     margin-top: 16px;
 }
 
-.social-media:hover {
-    border-color: #2196F3;
-    filter: brightness(0) saturate(100%) invert(48%) sepia(99%) saturate(2250%) hue-rotate(195deg) brightness(99%) contrast(91%);
-}
 
 /* Small: 576px - 767px */
 @media (max-width: 767px) {}
