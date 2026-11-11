@@ -700,3 +700,24 @@ body {
         font-size: 32px;
     }
 }
+
+.social-item {
+    color: #AFB1B8;
+    width: 20px;
+    height: 20px;   
+}
+
+.social-link:hover{
+    color: #ffff;
+    background-color: #2196F3;
+}
+
+.social-link {
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    padding: 12px;
+}
+.social-link:hover .social-item {
+    fill: #ffff;
+}
